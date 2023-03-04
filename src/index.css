@@ -6,20 +6,13 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  width: 1440px;
 }
 
 .navbar__link {
@@ -28,24 +21,16 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
+  text-decoration-line: none;
+  color: white;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.navbar__link.active {
   background: linear-gradient(96.78deg, #AF6446 -71.13%, #D19885 130.08%, #EAD0C6 130.08%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-emphasis-color: transparent;
-  transition: border-bottom-color 0.2s ease-in-out;
-}
-
-.navbar__link:hover {
   border-bottom-width: 3px;
   border-bottom-color: #AF6446;
 }
-
-.navbar__li {
-  width: 52px;
-  height: 22px;
-  left: 443px;
-  top: 38px;
-}
-
